@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#323232">
+	<title>Празький квартал</title>
+	<link rel="shortcut icon" href="assets/i/favicon.png">
+	<style>
+		body> * {
+			visibility: hidden
+		}
+	</style>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<h1 class="header__logo"><a href="/" title="Празький квартал" class="header__logo-inner"><span class="sr-only">Празький квартал</span><img src="assets/i/prazhsky-logo.svg" alt="Празький квартал" width="154" height="154" class="header__logo-img" title=""/></a></h1>
+			<div class="header__menu">
+				<div class="menu">
+					<ul class="main-menu">
+						<li class="main-menu__item"><a href="#layouts" title="Планировки" class="main-menu__item-link">Планировки</a></li>
+						<li class="main-menu__item"><a href="#prices" title="Стоимость" class="main-menu__item-link">Стоимость</a></li>
+						<li class="main-menu__item"><a href="#about" title="О комплексе" class="main-menu__item-link">О комплексе</a></li>
+						<li class="main-menu__item"><a href="#map" title="Как добраться" class="main-menu__item-link">Как добраться</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="header__company"><img src="assets/i/bd-holding-logo.svg" alt="BD Holding" width="85" height="79" class="header__company-img" title="" /></div>
+			<div class="header__phones">
+				<div class="header__phones-item"><a href="tel:+380442092333" class="header__phone">(044) 209-23-33</a></div>
+				<div class="header__phones-item"><a href="tel:+380674014842" class="header__phone">(067) 401-48-42</a></div>
+			</div>
+		</div>
+	</header>
+	<main id="main" class="main">
+		<section data-anchor="layouts" style="background-image: url(assets/i/prazhsky-bg.jpg); background-image: url('assets/i/prazhsky-bg.jpg');" class="section">
+			<div class="container">
+				<ul class="download">
+					<li class="download__item"><a href="assets/docs/prazhsky-queue-1.pdf" title="Первая очередь, планировки. PDF" download="download" target="_blank" class="download__body"><span class="download__title"><span class="lg">1</span><span>очередь</span></span><span class="download__button">Скачать&nbsp;PDF с&nbsp;планировками</span></a></li>
+					<li
+						class="download__item"><a href="assets/docs/prazhsky-queue-2.pdf" title="Вторая очередь, планировки. PDF" download="download" target="_blank" class="download__body"><span class="download__title"><span class="lg">2</span><span>очередь</span></span><span class="download__button">Скачать&nbsp;PDF с&nbsp;планировками</span></a></li>
+						<li
+							class="download__item download__item_disable"><a href="/" class="download__body"><span class="download__title"><span class="lg">3</span><span>очередь</span></span><span class="download__button">Скачать&nbsp;PDF с&nbsp;планировками</span></a></li>
+				</ul>
+			</div>
+			<a href="#prices" title="Перейти к стоимости" class="scroll-down"></a>
+		</section>
+		<section data-anchor="prices" class="section">
+			<div class="container">
+				<ul class="price">
+					<li class="price__item">
+						<div class="price__title">1-комнатные</div>
+						<div class="price__image"><img src="assets/i/1-room.png" alt="" class="price__img" /></div>
+						<div class="price__description">25-32 м<sup>2</sup></div>
+						<div class="price__value">от 310,000 грн</div>
+					</li>
+					<li class="price__item">
+						<div class="price__title">2-комнатные</div>
+						<div class="price__image"><img src="assets/i/2-room.png" alt="" class="price__img" /></div>
+						<div class="price__description">42-48 м<sup>2</sup></div>
+						<div class="price__value">от 515,000 грн</div>
+					</li>
+					<li class="price__item">
+						<div class="price__title">3-комнатные</div>
+						<div class="price__image"><img src="assets/i/3-room.png" alt="" class="price__img" /></div>
+						<div class="price__description">60-62 м<sup>2</sup></div>
+						<div class="price__value">от 735,000 грн</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section data-anchor="about" style="background-image: url(assets/i/bg-about.jpg);" class="section">
+			<div class="container">
+				<div class="about">
+					<div class="about__image"><img src="assets/i/prazhsky-logo.svg" alt="Празький квартал" class="about__img" title="" /></div>
+					<div class="about__body">
+						<div class="about__inner">
+							<h2>Квартиры <strong>от 12,400$</strong></h2>
+							<p>Жизнь в небольшом загородном жилом комплексе, как и в настоящем европейском городке, подкупает не только своей размеренностью, но и предлагает совершенно новый образ жизни. У нас каждая квартира отличается продуманной и комфортной планировкой.
+								Работать в городе и жить за его пределами стало нормой для всего цивилизованного мира. Жизнь вдали от шума, суеты и скоростей мегаполиса благотворно влияет на здоровье, умиротворяет душу и располагает к полету творчества.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section data-anchor="map" class="section">
+			<div class="map">
+				<div id="map-interactive" data-title="ЖК 'Пражский Квартал'" data-latitude="50.425599" data-longitude="30.335762" data-zoom="14" data-icon="assets/i/logo.png" data-origin-point-icon="assets/i/point-a.png" data-destination-point-icon="assets/i/point-b.png"
+					class="map__interactive"></div>
+				<div class="container">
+					<div class="map__body">
+						<div class="map__options"><span data-travel-mode="transit" class="active map__option"><span class="map__option-icon"><svg width="16" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20" enable-background="new 0 0 16 20" class="map__option-img"><path fill="#baa871" d="M16 17.5h-1.4v1.4c0 .4-.2.8-.6 1-.4.2-.8.2-1.2 0-.4-.2-.5-.6-.5-1v-1.3h-8.7v1.3c0 .7-.5 1.2-1.2 1.2s-1.1-.5-1.1-1.2v-1.3h-1.4v-8.200000000000001c0-.7.1-1.3.2-1.9.2-1.3.4-2.7.5-4 .1-.9.6-1.5 1.3-1.9 1.1-.8 2-1 3-1.2 1.1-.3 2.3-.5 3.5-.4 1.8.1 3.6.4 5.3 1.1 1 .4 1.6 1.2 1.7 2.4.2 1.7.4 3.4.6 5v9zm-8-7.8h6.2c.3 0 .4-.2.4-.5v-.5l-.6-4.2c-.1-.7-.3-.9-1-1h-9.899999999999999c-.7 0-.9.3-1 .9-.2 1-.3 1.8-.5 2.7-.1.7-.2 1.3-.2 2 0 .4.2.6.5.6h6.1zm4.4 4c0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1 0-.6-.5-1.1-1.1-1.1-.6 0-1.1.5-1.1 1.1zm-8.8 0c0-.6-.5-1.1-1.1-1.1-.6 0-1.1.5-1.1 1.1 0 .6.5 1.1 1.1 1.1.6 0 1.1-.5 1.1-1.1z"></path></svg></span>
+							<span
+								class="map__option-label">Общественным транспортом</span>
+								</span><span data-travel-mode="driving" class="map__option"><span class="map__option-icon"><svg width="22" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20" enable-background="new 0 0 22 20" class="map__option-img"><path fill="#323232" d="M21.4 7l-.7-4.8c-.2-1.1-1.2-1.9-2.4-1.9-5.6-.3-8.9-.5-14.5.1-1.2 0-2.2.8-2.4 1.9l-.8 4.7c-.3 2.2-.5 4.5-.6 6.7 0 .5.1 1.1.3 1.6v3.9c0 .5.5.8 1 .8h1.6c.6 0 1-.4 1-.8v-1.4h14v1.4c0 .5.5.8 1 .8h1.6c.6 0 1-.4 1-.8v-3.9c.2-.5.3-1 .3-1.6.1-2.2-.1-4.5-.4-6.7zm-18 7.2c-1.1 0-2.1-.8-2.1-1.9s.9-1.9 2.1-1.9 2.1.8 2.1 1.9-.9 1.9-2.1 1.9zm0-6.1c-.8-.1-1.3-.8-1.2-1.5.2-1.6.6-4.1.6-4.1.1-.5.5-.8 1-.8 5.8-.6 8.8-.4 14.5 0 .5 0 .9.3.9.7 0 0 .4 2.5.6 4.1.1.7-.4 1.4-1.2 1.5-5.9.9-9.8.9-15.2.1zm15.2 6.1c-1.1 0-2.1-.8-2.1-1.9s.9-1.9 2.1-1.9c1.1 0 2.1.8 2.1 1.9s-1 1.9-2.1 1.9z"></path></svg></span>
+								<span
+									class="map__option-label">Машиной</span>
+									</span>
+						</div>
+						<ul class="map__routes-list">
+							<li class="map__routes-list-item"><span data-origin-title="Академгородок" data-origin-latitude="50.465120" data-origin-longitude="30.355261" data-destination-title="ЖК 'Пражский Квартал'" data-destination-latitude="50.425599" data-destination-longitude="30.335762" class="map__routes-text">От ст. м. Академгородок удобно добираться прямой маршруткой 903, остановка «Пражский квартал»</span></li>
+							<li
+								class="map__routes-list-item"><span data-origin-title="Нивки" data-origin-latitude="50.459011" data-origin-longitude="30.403984" data-destination-title="ЖК 'Пражский Квартал'" data-destination-latitude="50.425599" data-destination-longitude="30.335762" class="map__routes-text">От ст. м. Нивки, Святошин и Житомирская — 743, остановка «Садовая».</span></li>
+								<li
+									class="map__routes-list-item"><span data-origin-title="Кольцевая дорога" data-origin-latitude="50.425488" data-origin-longitude="30.367441" data-destination-title="Садовая" data-destination-latitude="50.434300" data-destination-longitude="30.329950" class="map__routes-text">От скоростного трамвая — 744-м маршрутом, остановка «Садовая».</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container">
+					<a href="http://bdholding.ch" title="BD Holding" target="_blank" class="footer__copyright"><img src="assets/i/bd-holding-logo.svg" alt="BD Holding" width="45" height="42" class="footer__copyright-img" title="" /><span class="footer__copyright-name">&copy; BD Holding, 2016.<br>
+Все права защищены.</span></a>
+					<a href="http://altsolution.ua" title="Сделано в Altsolution" target="_blank" class="footer__author"><img src="assets/i/altsolution-logo.svg" alt="" width="42" height="28" class="footer__author-logo" /><span class="footer__author-name">Сделано <br>
+в Altsolution</span></a>
+				</div>
+			</footer>
+		</section>
+	</main>
+	<link rel="stylesheet" href="assets/prazhsky.min.css">
+	<script src="assets/jquery-1.11.0.min.js" defer></script>
+	<script src="assets/prazhsky.min.js" defer></script>
+	<script>
+		(function(i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function() {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+		ga('create', 'UA-41176425-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+
+</html>

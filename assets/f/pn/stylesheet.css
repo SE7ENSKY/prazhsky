@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('f/pn/pn-regular.eot');
+    src: url('f/pn/pn-regular.eot?#iefix') format('embedded-opentype'),
+         url('f/pn/pn-regular.woff2') format('woff2'),
+         url('f/pn/pn-regular.woff') format('woff'),
+         url('f/pn/pn-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('f/pn/pn-semibold.eot');
+    src: url('f/pn/pn-semibold.eot?#iefix') format('embedded-opentype'),
+         url('f/pn/pn-semibold.woff2') format('woff2'),
+         url('f/pn/pn-semibold.woff') format('woff'),
+         url('f/pn/pn-semibold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
